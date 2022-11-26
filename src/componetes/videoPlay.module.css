@@ -1,0 +1,17 @@
+.container {
+    padding: 0 2rem;
+}
+
+.boxbtns {
+    
+}
+
+.texto{
+    background-color: aqua;
+}
+@media (max-width: 600px) {
+    .boxbtns {
+        display: flex;
+        flex-direction: column;
+    }
+}
