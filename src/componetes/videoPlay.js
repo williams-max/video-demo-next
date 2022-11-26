@@ -8,8 +8,8 @@ import axios from 'axios';
 import styles from './videoPlay.module.css'
 const VideoPlay = () => {
 
-    const urlProducction = "https://bakc-end-video-demo.vercel.app/api";
-  //  "http://localhost:4000/api";
+    const urlProducction ="http://localhost:4000/api";
+    //"https://bakc-end-video-demo.vercel.app/api";
     const [contViewPlay, setContViewPlay] = useState(0)
     const [contViewTime, setContViewTime] = useState(0)
     const [contAuxTime, setContAuxTime] = useState(0)
